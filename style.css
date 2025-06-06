@@ -53,3 +53,34 @@ header {
  width: 80px;
  height: auto;
 }
+.accordion {
+  background-color: #004E95;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.3s;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.accordion:hover {
+  background-color: #003870;
+}
+
+.panel {
+  padding: 0 15px;
+  background-color: #F5F5F5;
+  display: none;
+  overflow: hidden;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.panel p {
+  margin: 10px 0;
+}
